@@ -2,10 +2,10 @@ r128gain
 ========
 
 ## build docker
-docker build -t r128gain .
+`docker build -t r128gain .`
 
 ## run 
-docker run --rm -it -u $UID -v $PWD:/music r128gain r128gain -r -a /music
+`docker run --rm -it -u $UID -v $PWD:/music r128gain r128gain -r -a /music`
 
 ## Command line usage
 See [r128gain](https://github.com/desbma/r128gain) 
